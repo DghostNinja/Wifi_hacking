@@ -46,5 +46,5 @@
 [+] if password is in generated wordlist aircrack should find it.
 <img src="https://github.com/DghostNinja/Wifi_hacking/blob/main/Documentation/Camera%20Roll/Screenshot%20from%202023-08-17%2013-56-45.png ">
 
-[+] This attack was perform on my private network 
+[+] This attack was perform on my private WPA2 network 
 [+] You should have a range of letters attached to target network either through social engineering or OSINT in order to generate a working wordlist.
