@@ -40,6 +40,7 @@
 <img src="https://github.com/DghostNinja/Wifi_hacking/blob/main/Documentation/Camera%20Roll/Screenshot%20from%202023-08-17%2013-06-26.png">
 
 # Run "aircrack-ng (captured_handshake_name) -w word.txt"
+[+] use file with ".cap" extension.
 <img src="https://github.com/DghostNinja/Wifi_hacking/blob/main/Documentation/Camera%20Roll/Screenshot%20from%202023-08-17%2013-56-32.png ">
 
 # Aircrack-ng running caputured packets with wordlist.
