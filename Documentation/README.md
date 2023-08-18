@@ -11,5 +11,18 @@ In my case it's (wlan0).
 # "iwconfig wlan0 mode monitor", "ifconfig wlan0 up" - turn on monitor mode on wireless adapter and bring up wlan0 connection.
 <img src="https://github.com/DghostNinja/Wifi_hacking/blob/main/Documentation/Camera%20Roll/Screenshot%20from%202023-08-17%2011-18-09.png">
 
+# Check wlan0 status, should be in monitor mode now.
+<img src="https://github.com/DghostNinja/Wifi_hacking/blob/main/Documentation/Camera%20Roll/Screenshot%20from%202023-08-17%2011-18-20.png">
+
+# "airodump-ng wlan0" - to monitor packets and wireless services around you.
+<img src="https://github.com/DghostNinja/Wifi_hacking/blob/main/Documentation/Camera%20Roll/Screenshot%20from%202023-08-17%2011-18-59.png">
+
+# Displays both network and connected devices(STATION section), quit the process by hitting the "CTRL + C" on your keyboard.
+<img src="https://github.com/DghostNinja/Wifi_hacking/blob/main/Documentation/Camera%20Roll/Screenshot%20from%202023-08-17%2011-19-17.png ">
+
+# "airodump-ng --bssid (enter bssid) --channel (enter CH) wlan0" - to monitor packets on a specific network.
+chose the network with the name H4CKER which is my personal network.
+<img src="https://github.com/DghostNinja/Wifi_hacking/blob/main/Documentation/Camera%20Roll/Screenshot%20from%202023-08-17%2012-19-13.png">
 
 
+<img src=" ">
