@@ -35,8 +35,16 @@
 <img src="https://github.com/DghostNinja/Wifi_hacking/blob/main/Documentation/Camera%20Roll/Screenshot%20from%202023-08-17%2013-54-39.png">
 
 # Generate wordlist with crunch - "crunch 6 12 abc -o word.txt"
+[+] name the ".txt" file as desired.
 [+] generated a wordlist of a minimum of 6 and maximum of 12 characters.
 <img src="https://github.com/DghostNinja/Wifi_hacking/blob/main/Documentation/Camera%20Roll/Screenshot%20from%202023-08-17%2013-06-26.png">
 
 # Run "aircrack-ng (captured_handshake_name) -w word.txt"
 <img src="https://github.com/DghostNinja/Wifi_hacking/blob/main/Documentation/Camera%20Roll/Screenshot%20from%202023-08-17%2013-56-32.png ">
+
+# Aircrack-ng running caputured packets with wordlist.
+[+] if password is in generated wordlist aircrack should find it.
+<img src="https://github.com/DghostNinja/Wifi_hacking/blob/main/Documentation/Camera%20Roll/Screenshot%20from%202023-08-17%2013-56-45.png ">
+
+// This attack was perform on my private network 
+// You should have a range of letters attached to target network either through social engineering or OSINT in order to generate a working wordlist.
