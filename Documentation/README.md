@@ -28,6 +28,8 @@ chose the network with the name H4CKER which is my personal network.
 [+] Run a deauthentication attack with"aireplay-ng --deauth 10 -a (target BSSID) -c (target MAC) wlan0 " on another pane to capture network handshake.
 <img src="https://github.com/DghostNinja/Wifi_hacking/blob/main/Documentation/Camera%20Roll/Screenshot%20from%202023-08-17%2013-54-18.png">
 
-# Running deauth and capturing handshake while device conects back to WPA2 network.
+# Waiting to capture handshake while device conects back to WPA2 network.
 <img src="https://github.com/DghostNinja/Wifi_hacking/blob/main/Documentation/Camera%20Roll/Screenshot%20from%202023-08-17%2013-54-31.png ">
+
+# Handshake should be captured once deauth attack is complete.
 
