@@ -11,6 +11,9 @@ airmon-ng check kill
 iwconfig wlan0 mode monitor
 [monitor mode]
 
+iw list | grep -A 10 "Supported interface modes"
+[check supported interfaces] 
+
 service NetworkManager restart
 [start network back]
 
