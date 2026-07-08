@@ -133,13 +133,13 @@ After scanning, displays a parsed summary:
   ACCESS POINTS
   BSSID               CH   PWR   ENC    SSID
   ------------------------------------------------------------
-  0C:61:F9:17:2D:B4   1    -42   WPA2   Nifemi
-  B8:D4:BC:BB:F5:0F   11   -31   WPA2   LEGION
+  AA:BB:CC:11:22:33   1    -42   WPA2   HomeNetwork
+  DD:EE:FF:44:55:66   11   -31   WPA2   Office_Guest
 
   STATIONS (clients)
   Station MAC          BSSID                Probed SSIDs
   ------------------------------------------------------------
-  F2:D7:87:03:6B:94   0C:61:F9:17:2D:B3
+  1A:2B:3C:4D:5E:6F   AA:BB:CC:11:22:33
 ```
 
 ### `capture`
@@ -235,7 +235,7 @@ Flood the area with beacon frames from fake access points.
 sudo wifitool.py beaconflood -i wlan0mon -c 500 -t 30
 
 # Custom SSIDs
-sudo wifitool.py beaconflood -i wlan0mon -s "Nifemi,LEGION,Test,FreeWiFi" -c 200 -t 15
+sudo wifitool.py beaconflood -i wlan0mon -s "Starbucks,Airport_Free,HomeNet,Test" -c 200 -t 15
 ```
 
 | Flag | Default | Description |
